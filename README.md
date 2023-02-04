@@ -51,9 +51,11 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 The font awesome libraries are used to add the icons for the juser registration form. The registration form has front-end input validation and the icons are used to inform the user if they have not entered valid input.
 
-
+`moment: ^2.29.4` -  Moment is used to format the dates on each post when viewed as a full page. It is also used to provide information on the preview cards about how long ago each post was made.
 
 ### Client Development Dependencies
+
+`vite": "^4.0.0` - Vite allows developers to setup and build a front-end development environment for React that contains a dev server. It also has the feature of a Hot Module Reload which updates the server with changes to the codebase.
 
 ## Application Screenshots
 
