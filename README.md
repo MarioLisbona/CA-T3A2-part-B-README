@@ -27,11 +27,33 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 ## API Endpoints
 
+API Endpoint documentation can be found [here]()
+
 ## Server Libraries and Dependencies
 
 ### Server Libraries
 
+`mongoose ^6.8.4"`- An object data modelling (ODM) library for use with MongoDB. Used to build schema and models that enforce structure at the application layer.
+
+`express ^4.18.2` - A Node JS based minimal back end web framework for building REST APIs. Used to build routes to handle HTTP requests.
+
+`dotenv ^16.0.3` - Used to load variables stored in `.env` files into `process.env`. Allows for environment configuration to be kept separate from the code and protect database credentials and JWT secret key.
+
+`cors ^2.8.5"` - Provides middleware to ExpressJS to enable cross origin requests that are normally forbidden.
+
+`validator ^13.7.0` - Library for validating and sanitising strings.
+
+`express-validator ^6.14.3` - Set of ExpressJS middlewares that wrap `validator` and provide further validation and sanitizer functions. Used to validate data in incoming requests.
+
+`jsonwebtoken ^9.0.0` - An open standard for sharing security information between client and server. Used for user authentication by issuing a JWT to the client upon successful login by digitally signing information using a secret key and cryptographic algorithm. This is validated by the server when the user attempts to access protected routes.
+
+`bcrypt ^5.1.0` - A password hashing function used for securely storing passwords in the database.
+
 ### Server Development Dependencies
+
+`jest ^29.4.1` - A JavaScript testing framework for writing tests and running automated tests.
+
+`supertest ^6.3.3` - A Node.js library for testing APIs. Provides high level abstraction for testing.
 
 ## Client Libraries and Dependencies
 
@@ -80,3 +102,12 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 ## Application Screenshots
 
+## Testing
+
+Extensive testing has been carried out in both Chrome and Firefox running on Windows and MacOS and various devices and screen sizes. Automated testing has been developed using Vitest and Jest. Manual testing was carried out using Postman and running the application locally and via deployment.
+
+Manual Testing During Development, Staging and Production: [Click Here](https://docs.google.com/spreadsheets/d/1ZN6NrLZgrfrI0-DRtoB7dR9KK781k1nl1RJyCdUfHI8/edit#gid=0)
+
+Further Manual Testing for production app: [Click Here](docs/testing-production.md)
+
+Postman Testing: [Click Here](docs/testing-postman.md)
