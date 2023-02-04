@@ -33,8 +33,8 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 - Create a directory called `travellers-forum` and navigate into that directory.
   - `$ mkdir travellers-forum && cd travellers-forum`
-- Once in the `/travellers-forum` directory, in the terminal run the following command:  
-  -  `git clone git@github.com:CallumRowston/CA-T3A2-B-travelers-forum-server.git` 
+- Once in the `/travellers-forum` directory, in the terminal run the following command:
+  - `git clone git@github.com:CallumRowston/CA-T3A2-B-travelers-forum-server.git`
 - navigate to the server folder:
   - `$ cd CA-T3A2-B-travelers-forum-server`
 
