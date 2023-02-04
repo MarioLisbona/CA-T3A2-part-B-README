@@ -37,10 +37,13 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 ### Client Libraries
 
-`react": "^18.2.0` - React is a Javascript library that provides a declarative, efficient and flexible way to build user interfaces for an application. It allows developer to use multiple small, isolated pieces of code, called 'components' to create complex and interactive UI's
+`react: ^18.2.0` - React is a Javascript library that provides a declarative, efficient and flexible way to build user interfaces for an application. It allows developer to use multiple small, isolated pieces of code, called 'components' to create complex and interactive UI's.
+
+`react-dom: ^18.2.0` - React-dom is a package that provides a Virtual DOM which is a copy of the actual DOM structure that is used to track changes that are made by the user. Those changes are eventually reflected in the browser's DOM structure. The package provides developed with methods to maniupalte the virual dom, inlcuding `.render()` and `.findDOMNode`
+
+
 
 ### Client Development Dependencies
 
 ## Application Screenshots
 
-## Attributions
