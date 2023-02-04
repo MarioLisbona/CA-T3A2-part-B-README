@@ -57,5 +57,18 @@ The font awesome libraries are used to add the icons for the juser registration 
 
 `vite": "^4.0.0` - Vite allows developers to setup and build a front-end development environment for React that contains a dev server. It also has the feature of a Hot Module Reload which updates the server with changes to the codebase.
 
+`@testing-library/jest-dom: ^5.16.5`
+`@testing-library/react: ^13.4.0`
+`@testing-library/react-hooks: ^8.0.1`
+`@testing-library/user-event: ^14.4.3`
+`@types/react: ^18.0.26`
+`@types/react-dom: ^18.0.9`
+`@vitejs/plugin-react: ^3.0.0`
+`jsdom: ^21.1.0`
+`vitest: ^0.28.3`
+
+These packages are used to run unit tests and integration tests on the application.
+They need to be installed with the flag `--legacy-peer-deps` appended to CLI command.
+
 ## Application Screenshots
 
