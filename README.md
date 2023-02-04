@@ -94,3 +94,12 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 ## Application Screenshots
 
+## Testing
+
+Extensive testing has been carried out in both Chrome and Firefox running on Windows and MacOS and various devices and screen sizes. Automated testing has been developed using Vitest and Jest. Manual testing was carried out using Postman and running the application locally and via deployment.
+
+Manual Testing During Development, Staging and Production: [Click Here](https://docs.google.com/spreadsheets/d/1ZN6NrLZgrfrI0-DRtoB7dR9KK781k1nl1RJyCdUfHI8/edit#gid=0)
+
+Further Manual Testing for production app: [Click Here](docs/testing-production.md)
+
+Postman Testing: [Click Here](docs/testing-postman.md)
