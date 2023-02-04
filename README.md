@@ -25,6 +25,38 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 ## Installation
 
+### System requirements
+
+- NodeJS version v18.12.1
+
+### Server Installation
+
+- Create a directory called `travellers-forum` and navigate into that directory.
+  - `$ mkdir travellers-forum && cd travellers-forum`
+- Once in the `/travellers-forum` directory, in the terminal run the following command:  
+  -  `git clone git@github.com:CallumRowston/CA-T3A2-B-travelers-forum-server.git` 
+- navigate to the server folder:
+  - `$ cd CA-T3A2-B-travelers-forum-server`
+
+
+### Client Installation
+
+- Open the terminal and navigate to the `travellers-forum` folder
+  - `$ cd travellers-forum`
+- Once in the `/travellers-forum` directory, in the terminal run the following command:
+  - `git clone git@github.com:MarioLisbona/CA-T3A2-B-travelers-forum-client.git`
+- navigate to the client folder:
+  - `$ cd CA-T3A2-B-travelers-forum-client`
+- Install npm packages
+  - `npm install --legacy-peer-deps`
+- run the server with the following command
+  - `npm run dev`
+- By dfault the server will run at `http://localhost:5173/`
+  - However if this port is already in use another port will be provided
+- You will also be provided a link in the terminal to the port where the client server is running:
+
+  ![server port](docs/vite-localhost.png)
+
 ## API Endpoints
 
 API Endpoint documentation can be found [here]()
