@@ -41,6 +41,16 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 `react-dom: ^18.2.0` - React-dom is a package that provides a Virtual DOM which is a copy of the actual DOM structure that is used to track changes that are made by the user. Those changes are eventually reflected in the browser's DOM structure. The package provides developed with methods to maniupalte the virual dom, inlcuding `.render()` and `.findDOMNode`
 
+`react-router-dom: ^6.7.0` - React Router is used to create an SPA (Single Page Application). It provides a library that lets developers take advantage of client-side rendering routing. This means that different components can be rendered within the app for each URL without having to fetch a new page each time.
+
+`@fortawesome/fontawesome-svg-core: ^6.2.1`
+
+`fortawesome/free-solid-svg-icons: ^6.2.1`
+
+`@fortawesome/react-fontawesome: ^0.2.0`
+
+The font awesome libraries are used to add the icons for the juser registration form. The registration form has front-end input validation and the icons are used to inform the user if they have not entered valid input.
+
 
 
 ### Client Development Dependencies
