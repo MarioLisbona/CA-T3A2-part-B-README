@@ -37,6 +37,10 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 ### Client Libraries
 
+`react": "^18.2.0` - React is a Javascript library that provides a declarative, efficient and flexible way to build user interfaces for an application. It allows developer to use multiple small, isolated pieces of code, called 'components' to create complex and interactive UI's
+
 ### Client Development Dependencies
 
 ## Application Screenshots
+
+## Attributions
