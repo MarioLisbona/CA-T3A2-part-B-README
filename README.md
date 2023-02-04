@@ -25,6 +25,10 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 ## Installation
 
+A production installation is available at [Traveller's Forum](https://travellersforum.netlify.app/)
+
+Follow the instructions below to install the server and client locally on your machine
+
 ### System requirements
 
 - NodeJS version v18.12.1
@@ -56,6 +60,8 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 - You will also be provided a link in the terminal to the port where the client server is running:
 
   ![server port](docs/vite-localhost.png)
+
+You will now be able to view all the posts on the App. To create your own posts, rate posts by others, comment on posts and much more register and login.
 
 ## API Endpoints
 
