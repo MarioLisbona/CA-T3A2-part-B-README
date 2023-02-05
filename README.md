@@ -100,6 +100,8 @@ API Endpoint documentation can be found [here](docs/apiendpoints.md)
 
 `supertest ^6.3.3` - A Node.js library for testing APIs. Provides high level abstraction for testing.
 
+`nodemon ^2.0.20` - Used for ease of development by automatically restarting application on file change.
+
 ## Client Libraries and Dependencies
 
 ### Client Libraries
