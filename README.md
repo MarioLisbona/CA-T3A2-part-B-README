@@ -161,4 +161,50 @@ Font-end testing: Automated testing to check that the correct structure and outp
 
 Back0end testing: Automated tests were written to test a variety of controllers, middleware and routes as an integrated process in two common workflows; Member login, post creation, edit and delete and member login, comment creation, edit and delete. Unit tests were also written to cover functionality and validation of various post, comment and auth routes. [Click Here](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server/tree/main/tests)
 
-## Trello Screenshots
+## Trello
+
+[Link to Trello Workspace](https://trello.com/b/LD1ZUwnS/t3a2-part-a-b)
+
+Screenshots of our Trello board were taken in the morning and afternoon of each day throughout the entire development of the project.
+
+<details>
+
+<summary>Week 1</summary>
+
+<br>
+
+![Trello1](docs/trello-screenshots/1.TrelloScreenShot-23-jan-morning.png)
+![Trello2](docs/trello-screenshots/2.TrelloScreenShot-23-jan-afternoon.png)
+![Trello3](docs/trello-screenshots/3.TrelloScreenShot-24-jan-morning.png)
+![Trello4](docs/trello-screenshots/4.TrelloScreenShot-24-jan-afternoon.png)
+![Trello5](docs/trello-screenshots/5.TrelloScreenShot-25-jan-morning.png)
+![Trello6](docs/trello-screenshots/6.TrelloScreenShot-25-jan-afternoon.png)
+![Trello7](docs/trello-screenshots/7.TrelloScreenShot-26-jan-morning.png)
+![Trello8](docs/trello-screenshots/8.TrelloScreenShot-26-jan-afternoon.png)
+![Trello9](docs/trello-screenshots/9.TrelloScreenShot-27-jan-afternoon.png)
+![Trello10](docs/trello-screenshots/10.TrelloScreenShot-28-jan-afternoon.png)
+![Trello11](docs/trello-screenshots/11.TrelloScreenShot-29-jan-morning.png)
+![Trello12](docs/trello-screenshots/12.TrelloScreenShot-29-jan-afternoon.png)
+
+</details>
+
+<details>
+
+<summary>Week 2</summary>
+
+<br>
+
+![Trello13](docs/trello-screenshots/13.TrelloScreenShot-30-jan-morning.png)
+![Trello14](docs/trello-screenshots/14.TrelloScreenShot-30-jan-afternoon.png)
+![Trello15](docs/trello-screenshots/15.TrelloScreenShot-31-jan-morning.png)
+![Trello16](docs/trello-screenshots/16.TrelloScreenShot-31-jan-afternoon.png)
+![Trello17](docs/trello-screenshots/17.TrelloScreenShot-1-feb-morning.png)
+![Trello18](docs/trello-screenshots/18.TrelloScreenShot-1-feb-afternoon.png)
+![Trello19](docs/trello-screenshots/19.TrelloScreenShot-2-feb-morning.png)
+![Trello20](docs/trello-screenshots/20.TrelloScreenShot-2-feb-afternoon.png)
+![Trello21](docs/trello-screenshots/21.TrelloScreenShot-3-feb-morning.png)
+![Trello22](docs/trello-screenshots/22.TrelloScreenShot-3-feb-afternoon.png)
+![Trello23](docs/trello-screenshots/23.TrelloScreenShot-4-feb-morning.png)
+![Trello24](docs/trello-screenshots/24.TrelloScreenShot-4-feb-afternoon.png)
+
+</details>

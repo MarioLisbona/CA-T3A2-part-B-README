@@ -130,31 +130,6 @@
 
 ## Member Routes
 
-**/members/**
-
-- Request Verb: GET
-- Function: Retrieves all Members from the database
-- Required Arguments: N/A
-- Authentication: N/A
-- Authorization: N/A
-- Example Request: N/A
-- Example Response:
-
-```json
-[
-    {
-        "_id": "63d37e827258d1092a616c57",
-        "username": "Callum",
-        "joined_date": "2023-01-27T07:34:26.242Z"
-    },
-    {
-        "_id": "63d37e827258d1092a616c58",
-        "username": "Mario",
-        "joined_date": "2023-01-27T07:34:26.242Z"
-    }
-]
-```
-
 **/members/:id/**
 
 - Request Verb: GET
