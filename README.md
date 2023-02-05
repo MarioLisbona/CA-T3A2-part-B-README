@@ -176,25 +176,25 @@ Our project planning and management centered around an Agile workflow using Trel
 
 We planned out the requirements to develop the minimum viable product and added these tasks as Trello cards, delegating each card to a group member and assigning it as a server or client requirement. Since we were a group of two, we mainly delegated tasks so that one of us would be responsible for the server and one of us for the client, with the expectation that if tasks were finished early the other member would jump across to help with the remainding tasks.
 
-Throughout the 2 week development period we ensured consistent contact by talking on Discord and providing updates on tasks completed or being worked on which ensured both the server and client were being developed with awareness of one another and allowing for us to collaboratively negotiate development challenges as they arose. It also allowed for quick decision making for smaller aspects of the design that may not have been covered.
+Throughout the second week of development we ensured consistent contact by talking on Discord and providing updates on tasks completed or being worked on which ensured both the server and client were being developed with awareness of one another and allowing for us to collaboratively negotiate development challenges as they arose. It also allowed for quick decision making for smaller aspects of the design that may not have been covered.
 
 Git and GitHub was utilised for source control. Features were developed in their own branch of each repository and tested before being merged into the main branch for production.
 
 **Sprint 1 - Basic App Functionality**
 
-Work began by setting up the basic app functionality. This included rendering the homepage, categories and posts on the client side. On the server side it invovled database setup and configuration and creating routes to get posts. It also included creating seed data so that testing could be done throughout the project.
+Work began by setting up the basic app functionality. This included rendering the homepage, categories and posts on the client side. On the server side it involved database setup and configuration and creating routes to get posts. It also included creating seed data so that testing could begin straight away and throughout the duration of the project.
 
 **Sprint 2 - Register & Login, Post CRUD**
 
-Register and login functionality was created on the client side. This included making certain components render or not render depending if a user was logged in or not. Components such as the navbar and buttons for register and login would be rendered differently when the user was logged in, as well as providing access to the users own posts. Forms and buttons and their associated functionality were also added to allow post creation, updates and deletion. On the server side, routes were created to match the client functionality with login and register routes, and full CRUD functionality for posts. Relationships had to be created to ensure the owner of a post could be identified so that only they could edit or delete their own post.
+Register and login functionality was created on the client side. This included conditionally rendering components based on variables including whether a user was logged in or not, if they were the author of a post or comment and whether they had already submitted a rating for a post. Components such as the navbar and buttons for register and login would be rendered differently when the user was logged in, as well as providing access to the users own posts. Forms and buttons and their associated functionality were also added to allow post creation, updates and deletion. On the server side, routes were created to match the client functionality with login and register routes, and full CRUD functionality for posts. Relationships had to be created to ensure the owner of a post could be identified so that only they could edit or delete their own post.
 
 **Sprint 3 - Comment CRUD**
 
-This sprint was very similar to the previous one. Much of the functionality of the post CRUD could be easily carried over to comments, with minor changes. Similarly to posts, the comment feature would render differently depending on if the user was logged in, and if the user was the owner of the comment.
+This sprint was very similar to the previous one. Much of the functionality of the post CRUD could be easily carried over to comments, with minor changes. Similar to posts, the comment feature would render differently depending on if the user was logged in, and if the user was the owner of the comment.
 
 **Sprint 4 - Authentication - finish MVP**
 
-To complete the MVP we added JWT authentication. This came with many hurdles such as how to store the token on the client and the handling of all possible errors associated with authentication on the server side. We also added popups for if the users token expired during their session to prompt them to login again.
+To complete the MVP we added JWT authentication. This came with many hurdles such as how to store the token on the client and the handling of all possible errors associated with authentication on the server side. We also added popup modals to display if the users token expired during their session to prompt them to login and redirect them to the login page.
 
 **Sprint 5 - Formal Testing**
 
