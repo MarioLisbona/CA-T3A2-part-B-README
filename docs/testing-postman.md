@@ -466,6 +466,105 @@ Response:
 
 <details>
 
+<summary>PATCH /posts/:id/rating</summary>
+
+**Test 1**
+
+Params: `63dcdb88851a8b6a8fb8f7d1`
+
+Expected Outcome: Rating is added to post rating array and calculated rating is returned
+
+Test Outcome: ✅
+
+Request:
+
+```json
+{
+    "userRating": 4
+}
+```
+
+Response:
+
+```json
+{
+    "_id": "63dcdb88851a8b6a8fb8f7d1",
+    "title": "test a post",
+    "author": {
+        "_id": "63dcdb5d851a8b6a8fb8f7cd",
+        "username": "Callum1"
+    },
+    "category": "North America",
+    "content": "test",
+    "comments": [],
+    "date_posted": "2023-02-03T10:01:44.246Z",
+    "__v": 0,
+    "rating": [
+        4
+    ],
+    "calculated_rating": 4
+}
+```
+
+**Test 2**
+
+Params: `63dcdb88851a8b6a8fb8f7d1`
+
+Expected Outcome: Error when trying to rate a post again as the same user
+
+Test Outcome: ✅
+
+Request:
+
+```json
+{
+    "userRating": 3
+}
+```
+
+Response:
+
+```json
+{
+    "error": "You have already rated this post"
+}
+```
+
+**Test 3**
+
+Params: `63dcdb88851a8b6a8fb8f7d1`
+
+Expected Outcome: Error when trying to rate a post with a number not 1-5
+
+Test Outcome: ✅
+
+Request:
+
+```json
+{
+    "userRating": 6
+}
+```
+
+Response:
+
+```json
+{
+    "errors": [
+        {
+            "value": 6,
+            "msg": "Rating must be a number 1-5",
+            "param": "userRating",
+            "location": "body"
+        }
+    ]
+}
+```
+
+</details>
+
+<details>
+
 <summary>POST /comments/new</summary>
 
 **Test 1**
@@ -678,5 +777,3 @@ Response:
     "error": "Access Denied. You are not the owner of this comment"
 }
 ```
-
-</details>

@@ -113,3 +113,26 @@
 |As 'TestUser99', clcik 'Confirm Delete' on message popup from previous delete comment test after session has expired|Popup message 'Whoops! Looks like you were logged out. Please log in and try again.' and redirected to login page|✅    |
 
 ---
+
+## Rating functionality works as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|As 'TestUser99', click 'Submit' after selecting 3 star rating on post|Unrated post rating changes to 3 stars|✅    |
+|As 'TestUser99', 'Submit' button does not appear on post already rated|'Submit' button does not render|✅    |
+|Rating correctly appears on full page post|Number rating appears to 1 decimal place with star next to it.|✅    |
+|Rating correctly appears on preview card|Number rating appears to 1 decimal place with star next to it.|✅    |
+
+## Typical new user workflow
+
+Testing opening app as guest, viewing a preview card, viewing the associated post, clicking 'Register', registering, logging in and being redirected back to the post
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|Initial opening of app|Home page loads with navbar, hero image, correct text and preview cards. User state is guest.|✅    |
+|Click 'Read  more' on preview card|Takes guest to full page post of preview card|✅    |
+|Comment field asks guest to login or register to comment|Comment form doesn't render, message to login or register renders instead|✅    |
+|'Register' button in comment field take user to register form|Register page renders when 'Register' button clicked|✅    |
+|'Sign Up' button in register form takes user to login form|Login page renders when 'Sign Up' button clicked and username auto populates|✅    |
+|'Login' button in login form takes user back to original post they were viewing before registering|Post renders again with logged in state so comment form is available to user|✅    |
+|Member enters 'I'm adding a comment for a test'|Comment is rendered below the post with the member as the author|✅    |

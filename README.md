@@ -39,9 +39,16 @@ Follow the instructions below to install the server and client locally on your m
   - `$ mkdir travellers-forum && cd travellers-forum`
 - Once in the `/travellers-forum` directory, in the terminal run the following command:
   - `git clone git@github.com:CallumRowston/CA-T3A2-B-travelers-forum-server.git`
-- navigate to the server folder:
+- Navigate to the server folder:
   - `$ cd CA-T3A2-B-travelers-forum-server`
+- Install npm packages
+  - `npm install`
+- If a `.env` file has not been provided to you, create one and fill it out using the fields provided in the `.env.sample` file
+- Run the server with the following command:
+  - `npm run dev`
+- This will run the server using nodemon
 
+The API can now be accessed using Postman and `localhost:4001/`
 
 ### Client Installation
 
@@ -49,11 +56,11 @@ Follow the instructions below to install the server and client locally on your m
   - `$ cd travellers-forum`
 - Once in the `/travellers-forum` directory, in the terminal run the following command:
   - `git clone git@github.com:MarioLisbona/CA-T3A2-B-travelers-forum-client.git`
-- navigate to the client folder:
+- Navigate to the client folder:
   - `$ cd CA-T3A2-B-travelers-forum-client`
 - Install npm packages
   - `npm install --legacy-peer-deps`
-- run the server with the following command
+- run the server with the following command:
   - `npm run dev`
 - By dfault the server will run at `http://localhost:5173/`
   - However if this port is already in use another port will be provided
@@ -65,7 +72,7 @@ You will now be able to view all the posts on the App. To create your own posts,
 
 ## API Endpoints
 
-API Endpoint documentation can be found [here]()
+API Endpoint documentation can be found [here](docs/apiendpoints.md)
 
 ## Server Libraries and Dependencies
 
@@ -151,3 +158,7 @@ Further Manual Testing for production app: [Click Here](docs/testing-production.
 Postman Testing: [Click Here](docs/testing-postman.md)
 
 Font-end testing: Automated testing to check that the correct structure and output is present on the PreviewCard component. Automated testing for conditional rendering of the username in the navbar is done in a second test. A third test checks that the links in the footer are displayed and that when they are clicked they route to the correct component. [Click Here](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client/tree/main/tests)
+
+Back0end testing: Automated tests were written to test a variety of controllers, middleware and routes as an integrated process in two common workflows; Member login, post creation, edit and delete and member login, comment creation, edit and delete. Unit tests were also written to cover functionality and validation of various post, comment and auth routes. [Click Here](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server/tree/main/tests)
+
+## Trello Screenshots
