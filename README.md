@@ -155,7 +155,6 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 Link to Trello board: [T3A2 - Part A & B](https://trello.com/b/LD1ZUwnS/t3a2-part-a-b)
 
-
 ## Testing
 
 Extensive testing has been carried out in both Chrome and Firefox running on Windows and MacOS and various devices and screen sizes. Automated testing has been developed using Vitest and Jest. Manual testing was carried out using Postman and running the application locally and via deployment.
@@ -169,6 +168,40 @@ Postman Testing: [Click Here](docs/testing-postman.md)
 Font-end testing: Automated testing to check that the correct structure and output is present on the PreviewCard component. Automated testing for conditional rendering of the username in the navbar is done in a second test. A third test checks that the links in the footer are displayed and that when they are clicked they route to the correct component. [Click Here](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client/tree/main/tests)
 
 Back-end testing: Automated tests were written to test a variety of controllers, middleware and routes as an integrated process in two common workflows; Member login, post creation, edit and delete and member login, comment creation, edit and delete. Unit tests were also written to cover functionality and validation of various post, comment and auth routes. [Click Here](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server/tree/main/tests)
+
+## Project Management & Planning
+
+Our project planning and management centered around an Agile workflow using Trello to organise and delegate tasks. The initial planning and Kanban board set up was undetaken in Part A, which can be found [here](https://github.com/MarioLisbona/CA-T3A2-part-A)
+
+We planned out the requirements to develop the minimum viable product and added these tasks as Trello cards, delegating each card to a group member and assigning it as a server or client requirement. Since we were a group of two, we mainly delegated tasks so that one of us would be responsible for the server and one of us for the client, with the expectation that if tasks were finished early the other member would jump across to help with the remainding tasks.
+
+Throughout the 2 week development period we ensured consistent contact by talking on Discord and providing updates on tasks completed or being worked on which ensured both the server and client were being developed with awareness of one another and allowing for us to collaboratively negotiate development challenges as they arose. It also allowed for quick decision making for smaller aspects of the design that may not have been covered.
+
+Git and GitHub was utilised for source control. Features were developed in their own branch of each repository and tested before being merged into the main branch for production.
+
+**Sprint 1 - Basic App Functionality**
+
+Work began by setting up the basic app functionality. This included rendering the homepage, categories and posts on the client side. On the server side it invovled database setup and configuration and creating routes to get posts. It also included creating seed data so that testing could be done throughout the project.
+
+**Sprint 2 - Register & Login, Post CRUD**
+
+Register and login functionality was created on the client side. This included making certain components render or not render depending if a user was logged in or not. Forms and buttons and their associated functionality were also added to allow post creation, updates and deletion. On the server side, routes were created to match the client functionality with login and register routes, and full CRUD functionality for posts.
+
+**Sprint 3 - Comment CRUD**
+
+This sprint was very similar to the previous one. Much of the functionality of the post CRUD could be easily carried over to comments, with minor changes. As a result, very few hurdles were encountered.
+
+**Sprint 4 - Authentication - finish MVP**
+
+To complete the MVP we added JWT authentication. This came with many hurdles such as how to store the token on the client and the handling of all possible errors associated with authentication on the server side.
+
+**Sprint 5 - Formal Testing**
+
+Extensive testing was carried out. A separate database was setup for testing as to not make any unnecessary changes to the development or production databases. Testing included writing automated unit and integration tests for both client and server, as well as meticulous manual testing of the application.
+
+**Sprint 6 - Rating Feature**
+
+As we had completed our initial plan and had rigorously tested the MVP, we agreed we had time to implement an additional feature. We began a final sprint to implement the  ratings feature to allow users to rate posts. This came together very quickly as our knowledge and familiarity with the application was very strong at this point in the project.
 
 ## Trello
 
