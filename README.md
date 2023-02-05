@@ -142,6 +142,11 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 ## Application Screenshots
 
+## Trello Screenshots
+
+Link to Trello board: [T3A2 - Part A & B](https://trello.com/b/LD1ZUwnS/t3a2-part-a-b)
+
+
 ## Testing
 
 Extensive testing has been carried out in both Chrome and Firefox running on Windows and MacOS and various devices and screen sizes. Automated testing has been developed using Vitest and Jest. Manual testing was carried out using Postman and running the application locally and via deployment.
