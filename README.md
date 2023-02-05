@@ -168,7 +168,7 @@ Postman Testing: [Click Here](docs/testing-postman.md)
 
 Font-end testing: Automated testing to check that the correct structure and output is present on the PreviewCard component. Automated testing for conditional rendering of the username in the navbar is done in a second test. A third test checks that the links in the footer are displayed and that when they are clicked they route to the correct component. [Click Here](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client/tree/main/tests)
 
-Back0end testing: Automated tests were written to test a variety of controllers, middleware and routes as an integrated process in two common workflows; Member login, post creation, edit and delete and member login, comment creation, edit and delete. Unit tests were also written to cover functionality and validation of various post, comment and auth routes. [Click Here](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server/tree/main/tests)
+Back-end testing: Automated tests were written to test a variety of controllers, middleware and routes as an integrated process in two common workflows; Member login, post creation, edit and delete and member login, comment creation, edit and delete. Unit tests were also written to cover functionality and validation of various post, comment and auth routes. [Click Here](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server/tree/main/tests)
 
 ## Trello
 
