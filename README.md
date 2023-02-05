@@ -255,7 +255,7 @@ To complete the MVP we added JWT authentication. This came with many hurdles suc
 
 **Sprint 5 - Formal Testing**
 
-Extensive testing was carried out. A separate database was setup for testing as to not make any unnecessary changes to the development or production databases. Testing included writing automated unit and integration tests for both client and server, as well as meticulous manual testing of the application.
+Extensive testing was carried out. A separate database was setup for testing so as to not make any unnecessary changes to the development or production databases. Testing included writing automated unit and integration tests for both client and server, as well as meticulous manual testing of the application.
 
 **Sprint 6 - Rating Feature**
 
