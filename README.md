@@ -23,6 +23,8 @@ Traveller's Forum is deployed on Netlify and Railway. It was developed using the
 
 💻 Client Repo: [https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client)
 
+📄 Part A Documentation: [https://github.com/MarioLisbona/CA-T3A2-part-A](https://github.com/MarioLisbona/CA-T3A2-part-A)
+
 ## Installation
 
 A production installation is available at [Traveller's Forum](https://travellersforum.netlify.app/)
