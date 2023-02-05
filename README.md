@@ -1,3 +1,5 @@
+<base target="_blank">
+
 <img src="./docs/logo1.png" width="500" alt="landing page mobile">
 
 
