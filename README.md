@@ -151,9 +151,6 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 ## Application Screenshots
 
-## Trello Screenshots
-
-Link to Trello board: [T3A2 - Part A & B](https://trello.com/b/LD1ZUwnS/t3a2-part-a-b)
 
 ## Testing
 
