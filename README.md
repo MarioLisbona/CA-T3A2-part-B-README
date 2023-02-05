@@ -185,15 +185,15 @@ Work began by setting up the basic app functionality. This included rendering th
 
 **Sprint 2 - Register & Login, Post CRUD**
 
-Register and login functionality was created on the client side. This included making certain components render or not render depending if a user was logged in or not. Forms and buttons and their associated functionality were also added to allow post creation, updates and deletion. On the server side, routes were created to match the client functionality with login and register routes, and full CRUD functionality for posts.
+Register and login functionality was created on the client side. This included making certain components render or not render depending if a user was logged in or not. Components such as the navbar and buttons for register and login would be rendered differently when the user was logged in, as well as providing access to the users own posts. Forms and buttons and their associated functionality were also added to allow post creation, updates and deletion. On the server side, routes were created to match the client functionality with login and register routes, and full CRUD functionality for posts. Relationships had to be created to ensure the owner of a post could be identified so that only they could edit or delete their own post.
 
 **Sprint 3 - Comment CRUD**
 
-This sprint was very similar to the previous one. Much of the functionality of the post CRUD could be easily carried over to comments, with minor changes. As a result, very few hurdles were encountered.
+This sprint was very similar to the previous one. Much of the functionality of the post CRUD could be easily carried over to comments, with minor changes. Similarly to posts, the comment feature would render differently depending on if the user was logged in, and if the user was the owner of the comment.
 
 **Sprint 4 - Authentication - finish MVP**
 
-To complete the MVP we added JWT authentication. This came with many hurdles such as how to store the token on the client and the handling of all possible errors associated with authentication on the server side.
+To complete the MVP we added JWT authentication. This came with many hurdles such as how to store the token on the client and the handling of all possible errors associated with authentication on the server side. We also added popups for if the users token expired during their session to prompt them to login again.
 
 **Sprint 5 - Formal Testing**
 
