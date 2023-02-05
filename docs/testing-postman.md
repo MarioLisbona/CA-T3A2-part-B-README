@@ -6,8 +6,6 @@ Postman was used for extensive testing of server routing throughout development.
 
 <summary>GET /posts</summary>
 
-<br>
-
 Expected Outcome: Return array of all posts
 
 Test Outcome: ✅
@@ -120,6 +118,31 @@ Response:
     },
     ...
 ]
+```
+
+</details>
+
+<details>
+
+<summary>GET /memberss/:id</summary>
+
+Param: `63dee7f6cfe958d0f0567eea`
+
+Expected Outcome: Return member matching id, excluding their password
+
+Test Outcome: ✅
+
+Response:
+
+```json
+{
+    "_id": "63dee7f6cfe958d0f0567eea",
+    "username": "CodaCat",
+    "has_rated": [
+        "63dee750cfe958d0f0567ecd"
+    ],
+    "joined_date": "2023-02-04T23:19:18.661Z"
+}
 ```
 
 </details>
