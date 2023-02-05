@@ -151,6 +151,63 @@ They need to be installed with the flag `--legacy-peer-deps` appended to CLI com
 
 ## Application Screenshots
 
+**Register with invalid username and password**
+
+![Register with invalid username and password](./docs/register-incorrect-user-pass.png)
+
+**Register with invalid password**
+
+![Register with invalid password](./docs/register-incorrect-pass.png)
+
+**Register with invalid password match**
+
+![Register with invalid password match](./docs/register-incorrect-pass-match.png)
+
+**Register with valid input**
+
+![Register with valid input](./docs/register-correct-input.png)
+
+**View Post not when not logged in**
+
+![View Post not when not logged in](./docs/view-post-not-logged-in.png)
+
+**User logged in with comment box and rate post button disabled**
+
+![User logged in with comment box and rate post button disabled](./docs/logged-in-select%20rating-submit-disabled.png)
+
+
+**User logged in with comment box and rate post button enabled**
+
+![User logged in with comment box and rate post button enabled](./docs/logged-in-select%20rating-submit-enabled.png)
+
+**Post rated successfully**
+
+![Post rated successfully](./docs/logged-in-select%20rating-after-submit-updated-rating.png)
+
+**Edit post**
+
+![Edit post](./docs/edit-post.png)
+
+**Edit comment**
+
+![Edit comment](./docs/edit-comment.png)
+
+**Landing page - latest posts**
+
+![Landing page - latest posts](./docs/landingpage-latest%20posts.png)
+
+**My posts**
+
+![My posts](./docs/my-posts.png)
+
+**My posts button functionality**
+
+![My posts button functionality](./docs/my-post-buttons.png)
+
+**JWT expired**
+
+![JWT expired](./docs/jwt-expired.png)
+
 ## Trello Screenshots
 
 Link to Trello board: [T3A2 - Part A & B](https://trello.com/b/LD1ZUwnS/t3a2-part-a-b)
